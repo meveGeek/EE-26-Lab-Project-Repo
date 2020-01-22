@@ -51,13 +51,16 @@ architecture Behavioral of add_sub is
            sum : out STD_LOGIC_VECTOR (3 downto 0));
 end component;
 signal bComp : std_logic_vector (3 downto 0);
+signal sBuff : std_logic_vector (3 downto 0);
+
 begin
 bComp(3) <= (b(3) xor T);
 bComp(2) <= (b(2) xor T);
 bComp(1) <= (b(1) xor T);
 bComp(0) <= (b(0) xor T);
 
-RA: ripple_adder port map (a => a, b => bComp, cin => T, v => V, sum => sumDiff);
-Z <= (sumDiff(0) nor sumDiff(1) nor sumDiff(2) nor sumDiff(3));
+RA: ripple_adder port map (a => a, b => bComp, cin => T, v => V, sum => sBuff, cOut => cout);
+Z <= '1' when sBuff = "0000" else '0';
+sumDiff <= sBuff;
 
 end Behavioral;
