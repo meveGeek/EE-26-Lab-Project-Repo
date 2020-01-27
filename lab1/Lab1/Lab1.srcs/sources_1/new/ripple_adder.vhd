@@ -41,7 +41,7 @@ entity ripple_adder is
 end ripple_adder;
 
 architecture Behavioral of ripple_adder is
-    signal cout0, cout1, cout2, cout3 : std_logic;
+    signal cout0, cout1, cout2, cout3 : STD_LOGIC;
 
     component full_adder
         Port ( a : in STD_LOGIC;

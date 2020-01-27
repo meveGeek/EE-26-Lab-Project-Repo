@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/ee26/lab1/Lab1/Lab1.sim/sim_1/synth/timing/xsim/add_sub_test_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_sub
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/ee26/lab1/Lab1/Lab1.srcs/sim_1/new/add_sub_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity add_sub_test

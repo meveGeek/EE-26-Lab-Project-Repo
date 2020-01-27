@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"add_sub_test_func_synth.vhd" \
+"../../../../../Lab1.srcs/sim_1/new/add_sub_test.vhd" \
+
+# Do not sort compile order
+nosort

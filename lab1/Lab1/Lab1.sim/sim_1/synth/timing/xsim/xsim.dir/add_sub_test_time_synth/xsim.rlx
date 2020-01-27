@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1803745582845350171  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto c04997fac33d4007a745dbbccccd04fb --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot add_sub_test_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.add_sub_test xil_defaultlib.glbl" , 
+    buildDate : "Dec 15 2017" , 
+    buildTime : "21:07:18" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2017.4\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/add_sub_test_time_synth/xsimk.exe\"   \"xsim.dir/add_sub_test_time_synth/obj/xsim_0.win64.obj\" \"xsim.dir/add_sub_test_time_synth/obj/xsim_1.win64.obj\" \"C:\\Xilinx\\Vivado\\2017.4\\lib\\win64.o\\\\librdi_simulator_kernel.dll\" \"C:\\Xilinx\\Vivado\\2017.4\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
