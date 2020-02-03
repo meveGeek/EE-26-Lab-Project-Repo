@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/ee26/lab2/lab2/lab2.srcs/sources_1/new/16bit_ripple.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ripple_16bit
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/ee26/lab1/Lab1/Lab1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity full_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/ee26/lab1/Lab1/Lab1.srcs/sources_1/new/ripple_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ripple_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/ee26/lab2/lab2/lab2.srcs/sim_1/new/16_bit_ripple_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ripple_16bit_test
