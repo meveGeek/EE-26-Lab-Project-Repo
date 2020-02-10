@@ -1,5 +1,5 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/ee26/lab2/lab2/lab2.sim/sim_1/synth/timing/xsim/ripple_16bit_test_time_synth.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module ripple_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/ee26/lab2/lab2/lab2.sim/sim_1/synth/timing/xsim/parallel_16bit_test_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parallel_claa_16bit
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/ee26/lab2/lab2/lab2.srcs/sim_1/new/16_bit_ripple_test.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity ripple_16bit_test
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/ee26/lab2/lab2/lab2.srcs/sim_1/new/parallel_16bit_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity parallel_16bit_test

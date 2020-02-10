@@ -1,23 +1,35 @@
 ----------------------------------------------------------------------------------
--- Create Date: 02/03/2020 
--- authors: Michael Eve, Adam Lipson
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 02/03/2020 05:59:45 PM
+-- Design Name: 
 -- Module Name: block_c - Behavioral
--- Project Name: Lab 2 16 bit RCA using 4bit CLAAs
--- Target Devices: Nexys4 Board
--- Tool Versions:
--- Description:
---This block will generate the P and G out values for each of the CLAA blocks. This
---will be done by pathing the indiviual inputs for P and G for each bit (0-3) so that
---every CLAA has the same means of generating the P and G outputs necessary to go
---into the 16bit CLAA block UNIT.
-
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
 -- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
 ----------------------------------------------------------------------------------
 
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
 
 entity block_c is
     Port ( Pin : in STD_LOGIC_VECTOR (3 downto 0);

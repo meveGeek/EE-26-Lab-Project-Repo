@@ -82,15 +82,39 @@ c0 : block_c port map(Pin => p0,
                       Pout => big_p(0),
                       Gout => big_g(0));
                       
-adder1 : claa2_4bit port map(a => x(7 downto 3),
-                             b => y(7 downto 3),
+adder1 : claa2_4bit port map(a => x(7 downto 4),
+                             b => y(7 downto 4),
                              c0 => C_lookahead(1),
-                             s => Sum(7 downto 3),
+                             s => Sum(7 downto 4),
                              pout => p1,
                              gout => g1);
-c1 : block_c port map(Pin => p0, ------ CHANGE THESE ---------
-                      Gin => g0,
-                      Pout => big_p(0),
-                      Gout => big_g(0));
+c1 : block_c port map(Pin => p1,
+                      Gin => g1,
+                      Pout => big_p(1),
+                      Gout => big_g(1));
+                      
+adder2 : claa2_4bit port map(a => x(11 downto 8),
+                                   b => y(11 downto 8),
+                                   c0 => C_lookahead(2),
+                                   s => Sum(11 downto 8),
+                                   pout => p2,
+                                   gout => g2);
+c2 : block_c port map(Pin => p2,
+                    Gin => g2,
+                    Pout => big_p(2),
+                    Gout => big_g(2));
+                                            
+adder3 : claa2_4bit port map(a => x(15 downto 12),
+                           b => y(15 downto 12),
+                           c0 => C_lookahead(3),
+                           s => Sum(15 downto 12),
+                           pout => p3,
+                           gout => g3,
+                           cout => cout);
+c3 : block_c port map(Pin => p3,
+                    Gin => g3,
+                    Pout => big_p(3),
+                    Gout => big_g(3));
+
 
 end Behavioral;

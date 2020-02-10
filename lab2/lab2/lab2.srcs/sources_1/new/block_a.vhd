@@ -1,20 +1,35 @@
 ----------------------------------------------------------------------------------
--- Create Date: 02/03/2020 
--- authors: Michael Eve, Adam Lipson
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 02/03/2020 05:17:14 PM
+-- Design Name: 
 -- Module Name: block_a - Behavioral
--- Project Name: Lab 2 16 bit RCA using 4bit CLAAs
--- Target Devices: Nexys4 Board
-
--- Description:
---This block will define the inputs for each of the CLAA blocks using a temporary value
---for the xor operation on x and y. This allows us to path the value that p and g
---generate so the values for x and y are not overwritten.
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
 -- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
 ----------------------------------------------------------------------------------
 
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
 
 entity block_a is
     Port ( x : in STD_LOGIC_VECTOR (3 downto 0);
@@ -24,6 +39,7 @@ entity block_a is
            g : out STD_LOGIC_VECTOR (3 downto 0);
            s : out STD_LOGIC_VECTOR (3 downto 0));
 end block_a;
+
 
 
 architecture Behavioral of block_a is
