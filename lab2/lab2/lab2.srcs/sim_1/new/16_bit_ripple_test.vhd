@@ -1,21 +1,16 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
+
 -- Create Date: 02/03/2020 04:36:01 PM
--- Design Name: 
--- Module Name: 16_bit_ripple_test - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
+-- Authors: Michael Eve, Adam Lipson
+-- Module Name: block_b - Behavioral
+-- Project Name: Lab 2 16 bit RCA using 4bit CLAAs
+-- Target Devices: Nexys4 Board
+-- Tool Versions:
+-- Description:
+--This file simply holds the test values that the ripple adder will go through
+--during the behavioral and timing tests.
+
 -- Revision 0.01 - File Created
--- Additional Comments:
--- 
 ----------------------------------------------------------------------------------
 
 
@@ -61,27 +56,27 @@ test_proc: process begin
     b <= "0000000000000000";
     Cin <= '0';
     wait for 30 ns;
-    
+
     a <= "1111111111111111";
     b <= "1111111111111111";
     Cin <= '0';
     wait for 30 ns;
-    
+
     a <= "1010101010101010";
     b <= "0101010101011111";
     Cin <= '0';
     wait for 30 ns;
-    
+
     a <= "0011000001011000";
     b <= "0000011111000000";
     Cin <= '0';
     wait for 30 ns;
-    
+
     a <= "1100111101010101";
     b <= "1001111000101101";
     Cin <= '0';
     wait for 30 ns;
-    
+
 end process;
 
 end Behavioral;
