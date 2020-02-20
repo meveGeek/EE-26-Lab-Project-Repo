@@ -1,0 +1,1 @@
+-wto "ffbdfe2b36b44e1c8607620aed153a36" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "butterfly_test_behav" "xil_defaultlib.butterfly_test" -log "elaborate.log" 
