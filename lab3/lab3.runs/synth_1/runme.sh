@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log fft_butterfly.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fft_butterfly.tcl
+EAStep vivado -log display_butterfly.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source display_butterfly.tcl

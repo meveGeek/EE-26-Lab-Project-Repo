@@ -37,7 +37,7 @@ use IEEE_Proposed.float_pkg.all;
 use work.complex_record.all;
 
 entity fft_butterfly is
-    Port ( A : in complex; -- STD_LOGIC_VECTOR (31 downto 0);
+    Port ( A : in complex;
            B : in complex;
            A_comp : out complex;
            B_comp : out complex);

@@ -53,10 +53,21 @@ signal A, B, A_comp, B_comp : complex;
 
 begin
 
+test_proc: process begin
+
 A.r <= to_float(1.5, A.r);
 A.i <= to_float(0.5, A.i);
 B.r <= to_float(2.0, B.r);
 B.i <= to_float(-3.0, B.i);
+wait for 100 ns;
+
+A.r <= to_float(7.5, A.r);
+A.i <= to_float(3.2, A.i);
+B.r <= to_float(10, B.r);
+B.i <= to_float(-7.0, B.i);
+wait for 100 ns;
+
+end process;
 
 fft : fft_butterfly port map (A => A, B => B, A_comp => A_comp, B_comp => B_comp);
 

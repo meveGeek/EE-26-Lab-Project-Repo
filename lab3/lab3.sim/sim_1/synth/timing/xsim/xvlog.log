@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/ee26/lab3/lab3.sim/sim_1/synth/timing/xsim/butterfly_test_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display_butterfly
+INFO: [VRFC 10-311] analyzing module sevenseg
+INFO: [VRFC 10-311] analyzing module glbl
