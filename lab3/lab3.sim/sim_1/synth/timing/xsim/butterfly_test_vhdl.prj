@@ -1,7 +1,5 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../../lab3.srcs/sources_1/new/complex_pkg.vhd" \
-"../../../../../lab3.srcs/sources_1/new/fft_butterfly.vhd" \
 "../../../../../lab3.srcs/sim_1/new/butterfly_test.vhd" \
 
 # Do not sort compile order

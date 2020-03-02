@@ -2,7 +2,7 @@
 2017.4
 Dec 15 2017
 21:07:18
-Z:/ee26/lab3/lab3.sim/sim_1/synth/timing/xsim/butterfly_test_time_synth.v,1582587608,verilog,,,,display_butterfly;glbl;sevenseg,,,,,,,,
-Z:/ee26/lab3/lab3.srcs/sim_1/new/butterfly_test.vhd,1582587493,vhdl,,,,butterfly_test,,,,,,,,
+Z:/ee26/lab3/lab3.sim/sim_1/synth/timing/xsim/butterfly_test_time_synth.v,1583186382,verilog,,,,display_butterfly;glbl;sevenseg,,,,,,,,
+Z:/ee26/lab3/lab3.srcs/sim_1/new/butterfly_test.vhd,1583186226,vhdl,,,,butterfly_test,,,,,,,,
 Z:/ee26/lab3/lab3.srcs/sources_1/new/complex_pkg.vhd,1582235767,vhdl,Z:/ee26/lab3/lab3.srcs/sim_1/new/butterfly_test.vhd;Z:/ee26/lab3/lab3.srcs/sources_1/new/fft_butterfly.vhd,,,complex_record,,,,,,,,
 Z:/ee26/lab3/lab3.srcs/sources_1/new/fft_butterfly.vhd,1582585090,vhdl,,,,fft_butterfly,,,,,,,,

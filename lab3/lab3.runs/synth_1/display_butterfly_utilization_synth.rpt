@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date         : Mon Feb 24 18:27:33 2020
-| Host         : LAB223F running 64-bit major release  (build 9200)
+| Date         : Mon Mar  2 16:51:36 2020
+| Host         : LAB223D running 64-bit major release  (build 9200)
 | Command      : report_utilization -file display_butterfly_utilization_synth.rpt -pb display_butterfly_utilization_synth.pb
 | Design       : display_butterfly
 | Device       : 7a100tcsg324-1
@@ -149,12 +149,13 @@ Table of Contents
 | FDRE     |   39 |        Flop & Latch |
 | OBUF     |   16 |                  IO |
 | CARRY4   |    8 |          CarryLogic |
-| LUT4     |    7 |                 LUT |
+| LUT5     |    5 |                 LUT |
+| LUT4     |    5 |                 LUT |
 | LUT2     |    5 |                 LUT |
 | LUT3     |    4 |                 LUT |
 | FDSE     |    4 |        Flop & Latch |
-| LUT6     |    3 |                 LUT |
-| LUT5     |    3 |                 LUT |
+| LUT6     |    2 |                 LUT |
+| LUT1     |    1 |                 LUT |
 | IBUF     |    1 |                  IO |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+

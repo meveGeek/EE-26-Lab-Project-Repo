@@ -1,8 +1,8 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-// Date        : Mon Feb 24 18:31:33 2020
-// Host        : LAB223F running 64-bit major release  (build 9200)
+// Date        : Mon Mar  2 16:51:54 2020
+// Host        : LAB223D running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               Z:/ee26/lab3/lab3.sim/sim_1/synth/timing/xsim/butterfly_test_time_synth.v
 // Design      : display_butterfly
@@ -112,78 +112,78 @@ module sevenseg
   wire \AN_out[7]_i_1_n_0 ;
   wire clk_IBUF_BUFG;
   wire [31:0]cnt;
-  wire \cnt[0]_i_2_n_0 ;
-  wire \cnt[0]_i_3_n_0 ;
-  wire \cnt[0]_i_4_n_0 ;
-  wire \cnt[0]_i_5_n_0 ;
-  wire \cnt[0]_i_6_n_0 ;
-  wire \cnt[0]_i_7_n_0 ;
-  wire \cnt[0]_i_8_n_0 ;
-  wire \cnt[0]_i_9_n_0 ;
+  wire \cnt[31]_i_10_n_0 ;
   wire \cnt[31]_i_1_n_0 ;
+  wire \cnt[31]_i_3_n_0 ;
+  wire \cnt[31]_i_4_n_0 ;
+  wire \cnt[31]_i_5_n_0 ;
+  wire \cnt[31]_i_6_n_0 ;
+  wire \cnt[31]_i_7_n_0 ;
+  wire \cnt[31]_i_8_n_0 ;
+  wire \cnt[31]_i_9_n_0 ;
   wire [0:0]cnt_0;
+  wire \cnt_reg[12]_i_1_n_0 ;
+  wire \cnt_reg[12]_i_1_n_1 ;
+  wire \cnt_reg[12]_i_1_n_2 ;
+  wire \cnt_reg[12]_i_1_n_3 ;
+  wire \cnt_reg[12]_i_1_n_4 ;
+  wire \cnt_reg[12]_i_1_n_5 ;
+  wire \cnt_reg[12]_i_1_n_6 ;
+  wire \cnt_reg[12]_i_1_n_7 ;
+  wire \cnt_reg[16]_i_1_n_0 ;
+  wire \cnt_reg[16]_i_1_n_1 ;
+  wire \cnt_reg[16]_i_1_n_2 ;
+  wire \cnt_reg[16]_i_1_n_3 ;
+  wire \cnt_reg[16]_i_1_n_4 ;
+  wire \cnt_reg[16]_i_1_n_5 ;
+  wire \cnt_reg[16]_i_1_n_6 ;
+  wire \cnt_reg[16]_i_1_n_7 ;
+  wire \cnt_reg[20]_i_1_n_0 ;
+  wire \cnt_reg[20]_i_1_n_1 ;
+  wire \cnt_reg[20]_i_1_n_2 ;
+  wire \cnt_reg[20]_i_1_n_3 ;
+  wire \cnt_reg[20]_i_1_n_4 ;
+  wire \cnt_reg[20]_i_1_n_5 ;
+  wire \cnt_reg[20]_i_1_n_6 ;
+  wire \cnt_reg[20]_i_1_n_7 ;
+  wire \cnt_reg[24]_i_1_n_0 ;
+  wire \cnt_reg[24]_i_1_n_1 ;
+  wire \cnt_reg[24]_i_1_n_2 ;
+  wire \cnt_reg[24]_i_1_n_3 ;
+  wire \cnt_reg[24]_i_1_n_4 ;
+  wire \cnt_reg[24]_i_1_n_5 ;
+  wire \cnt_reg[24]_i_1_n_6 ;
+  wire \cnt_reg[24]_i_1_n_7 ;
+  wire \cnt_reg[28]_i_1_n_0 ;
+  wire \cnt_reg[28]_i_1_n_1 ;
+  wire \cnt_reg[28]_i_1_n_2 ;
+  wire \cnt_reg[28]_i_1_n_3 ;
+  wire \cnt_reg[28]_i_1_n_4 ;
+  wire \cnt_reg[28]_i_1_n_5 ;
+  wire \cnt_reg[28]_i_1_n_6 ;
+  wire \cnt_reg[28]_i_1_n_7 ;
+  wire \cnt_reg[31]_i_2_n_2 ;
+  wire \cnt_reg[31]_i_2_n_3 ;
+  wire \cnt_reg[31]_i_2_n_5 ;
+  wire \cnt_reg[31]_i_2_n_6 ;
+  wire \cnt_reg[31]_i_2_n_7 ;
+  wire \cnt_reg[4]_i_1_n_0 ;
+  wire \cnt_reg[4]_i_1_n_1 ;
+  wire \cnt_reg[4]_i_1_n_2 ;
+  wire \cnt_reg[4]_i_1_n_3 ;
+  wire \cnt_reg[4]_i_1_n_4 ;
+  wire \cnt_reg[4]_i_1_n_5 ;
+  wire \cnt_reg[4]_i_1_n_6 ;
+  wire \cnt_reg[4]_i_1_n_7 ;
+  wire \cnt_reg[8]_i_1_n_0 ;
+  wire \cnt_reg[8]_i_1_n_1 ;
+  wire \cnt_reg[8]_i_1_n_2 ;
+  wire \cnt_reg[8]_i_1_n_3 ;
+  wire \cnt_reg[8]_i_1_n_4 ;
+  wire \cnt_reg[8]_i_1_n_5 ;
+  wire \cnt_reg[8]_i_1_n_6 ;
+  wire \cnt_reg[8]_i_1_n_7 ;
   wire [6:2]p_1_in;
-  wire plusOp_carry__0_n_0;
-  wire plusOp_carry__0_n_1;
-  wire plusOp_carry__0_n_2;
-  wire plusOp_carry__0_n_3;
-  wire plusOp_carry__0_n_4;
-  wire plusOp_carry__0_n_5;
-  wire plusOp_carry__0_n_6;
-  wire plusOp_carry__0_n_7;
-  wire plusOp_carry__1_n_0;
-  wire plusOp_carry__1_n_1;
-  wire plusOp_carry__1_n_2;
-  wire plusOp_carry__1_n_3;
-  wire plusOp_carry__1_n_4;
-  wire plusOp_carry__1_n_5;
-  wire plusOp_carry__1_n_6;
-  wire plusOp_carry__1_n_7;
-  wire plusOp_carry__2_n_0;
-  wire plusOp_carry__2_n_1;
-  wire plusOp_carry__2_n_2;
-  wire plusOp_carry__2_n_3;
-  wire plusOp_carry__2_n_4;
-  wire plusOp_carry__2_n_5;
-  wire plusOp_carry__2_n_6;
-  wire plusOp_carry__2_n_7;
-  wire plusOp_carry__3_n_0;
-  wire plusOp_carry__3_n_1;
-  wire plusOp_carry__3_n_2;
-  wire plusOp_carry__3_n_3;
-  wire plusOp_carry__3_n_4;
-  wire plusOp_carry__3_n_5;
-  wire plusOp_carry__3_n_6;
-  wire plusOp_carry__3_n_7;
-  wire plusOp_carry__4_n_0;
-  wire plusOp_carry__4_n_1;
-  wire plusOp_carry__4_n_2;
-  wire plusOp_carry__4_n_3;
-  wire plusOp_carry__4_n_4;
-  wire plusOp_carry__4_n_5;
-  wire plusOp_carry__4_n_6;
-  wire plusOp_carry__4_n_7;
-  wire plusOp_carry__5_n_0;
-  wire plusOp_carry__5_n_1;
-  wire plusOp_carry__5_n_2;
-  wire plusOp_carry__5_n_3;
-  wire plusOp_carry__5_n_4;
-  wire plusOp_carry__5_n_5;
-  wire plusOp_carry__5_n_6;
-  wire plusOp_carry__5_n_7;
-  wire plusOp_carry__6_n_2;
-  wire plusOp_carry__6_n_3;
-  wire plusOp_carry__6_n_5;
-  wire plusOp_carry__6_n_6;
-  wire plusOp_carry__6_n_7;
-  wire plusOp_carry_n_0;
-  wire plusOp_carry_n_1;
-  wire plusOp_carry_n_2;
-  wire plusOp_carry_n_3;
-  wire plusOp_carry_n_4;
-  wire plusOp_carry_n_5;
-  wire plusOp_carry_n_6;
-  wire plusOp_carry_n_7;
   wire \slow_clk[0]_i_1_n_0 ;
   wire \slow_clk[1]_i_1_n_0 ;
   wire \slow_clk[2]_i_1_n_0 ;
@@ -191,8 +191,8 @@ module sevenseg
   wire \slow_clk_reg_n_0_[0] ;
   wire \slow_clk_reg_n_0_[1] ;
   wire \slow_clk_reg_n_0_[2] ;
-  wire [3:2]NLW_plusOp_carry__6_CO_UNCONNECTED;
-  wire [3:3]NLW_plusOp_carry__6_O_UNCONNECTED;
+  wire [3:2]\NLW_cnt_reg[31]_i_2_CO_UNCONNECTED ;
+  wire [3:3]\NLW_cnt_reg[31]_i_2_O_UNCONNECTED ;
 
   LUT2 #(
     .INIT(4'hE)) 
@@ -207,7 +207,7 @@ module sevenseg
        (.I0(\slow_clk_reg_n_0_[2] ),
         .I1(\slow_clk_reg_n_0_[0] ),
         .O(\AN_out[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT3 #(
     .INIT(8'hEF)) 
     \AN_out[2]_i_1 
@@ -215,7 +215,7 @@ module sevenseg
         .I1(\slow_clk_reg_n_0_[0] ),
         .I2(\slow_clk_reg_n_0_[1] ),
         .O(p_1_in[2]));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT3 #(
     .INIT(8'hF7)) 
     \AN_out[3]_i_1 
@@ -318,90 +318,88 @@ module sevenseg
         .Q(AN_OBUF[7]),
         .R(1'b0));
   (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT4 #(
-    .INIT(16'h00FE)) 
+  LUT1 #(
+    .INIT(2'h1)) 
     \cnt[0]_i_1 
-       (.I0(\cnt[0]_i_2_n_0 ),
-        .I1(\cnt[0]_i_3_n_0 ),
-        .I2(\cnt[0]_i_4_n_0 ),
-        .I3(cnt[0]),
+       (.I0(cnt[0]),
         .O(cnt_0));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFFFFFE)) 
-    \cnt[0]_i_2 
-       (.I0(\cnt[0]_i_5_n_0 ),
-        .I1(\cnt[0]_i_6_n_0 ),
-        .I2(cnt[31]),
-        .I3(cnt[30]),
-        .I4(cnt[1]),
-        .I5(\cnt[0]_i_7_n_0 ),
-        .O(\cnt[0]_i_2_n_0 ));
-  LUT5 #(
-    .INIT(32'hFFFFFFFB)) 
-    \cnt[0]_i_3 
-       (.I0(cnt[5]),
-        .I1(cnt[4]),
-        .I2(cnt[2]),
-        .I3(cnt[3]),
-        .I4(\cnt[0]_i_8_n_0 ),
-        .O(\cnt[0]_i_3_n_0 ));
-  LUT5 #(
-    .INIT(32'hFFFFFFFE)) 
-    \cnt[0]_i_4 
-       (.I0(cnt[12]),
-        .I1(cnt[13]),
-        .I2(cnt[10]),
-        .I3(cnt[11]),
-        .I4(\cnt[0]_i_9_n_0 ),
-        .O(\cnt[0]_i_4_n_0 ));
-  LUT4 #(
-    .INIT(16'hFFFE)) 
-    \cnt[0]_i_5 
-       (.I0(cnt[23]),
-        .I1(cnt[22]),
-        .I2(cnt[25]),
-        .I3(cnt[24]),
-        .O(\cnt[0]_i_5_n_0 ));
-  LUT4 #(
-    .INIT(16'hFFFE)) 
-    \cnt[0]_i_6 
-       (.I0(cnt[19]),
-        .I1(cnt[18]),
-        .I2(cnt[21]),
-        .I3(cnt[20]),
-        .O(\cnt[0]_i_6_n_0 ));
-  LUT4 #(
-    .INIT(16'hFFFE)) 
-    \cnt[0]_i_7 
-       (.I0(cnt[27]),
-        .I1(cnt[26]),
-        .I2(cnt[29]),
-        .I3(cnt[28]),
-        .O(\cnt[0]_i_7_n_0 ));
-  LUT4 #(
-    .INIT(16'hDFFF)) 
-    \cnt[0]_i_8 
-       (.I0(cnt[6]),
-        .I1(cnt[7]),
-        .I2(cnt[9]),
-        .I3(cnt[8]),
-        .O(\cnt[0]_i_8_n_0 ));
-  LUT4 #(
-    .INIT(16'hFFF7)) 
-    \cnt[0]_i_9 
-       (.I0(cnt[15]),
-        .I1(cnt[14]),
-        .I2(cnt[17]),
-        .I3(cnt[16]),
-        .O(\cnt[0]_i_9_n_0 ));
   LUT4 #(
     .INIT(16'h0001)) 
     \cnt[31]_i_1 
-       (.I0(\cnt[0]_i_2_n_0 ),
-        .I1(\cnt[0]_i_3_n_0 ),
-        .I2(\cnt[0]_i_4_n_0 ),
-        .I3(cnt[0]),
+       (.I0(\cnt[31]_i_3_n_0 ),
+        .I1(\cnt[31]_i_4_n_0 ),
+        .I2(\cnt[31]_i_5_n_0 ),
+        .I3(\cnt[31]_i_6_n_0 ),
         .O(\cnt[31]_i_1_n_0 ));
+  LUT4 #(
+    .INIT(16'hFFFE)) 
+    \cnt[31]_i_10 
+       (.I0(cnt[21]),
+        .I1(cnt[20]),
+        .I2(cnt[23]),
+        .I3(cnt[22]),
+        .O(\cnt[31]_i_10_n_0 ));
+  LUT5 #(
+    .INIT(32'hFFFFFFFE)) 
+    \cnt[31]_i_3 
+       (.I0(cnt[10]),
+        .I1(cnt[11]),
+        .I2(cnt[8]),
+        .I3(cnt[9]),
+        .I4(\cnt[31]_i_7_n_0 ),
+        .O(\cnt[31]_i_3_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT5 #(
+    .INIT(32'hFFFFFBFF)) 
+    \cnt[31]_i_4 
+       (.I0(cnt[3]),
+        .I1(cnt[2]),
+        .I2(cnt[1]),
+        .I3(cnt[0]),
+        .I4(\cnt[31]_i_8_n_0 ),
+        .O(\cnt[31]_i_4_n_0 ));
+  LUT5 #(
+    .INIT(32'hFFFFFFFE)) 
+    \cnt[31]_i_5 
+       (.I0(cnt[26]),
+        .I1(cnt[27]),
+        .I2(cnt[24]),
+        .I3(cnt[25]),
+        .I4(\cnt[31]_i_9_n_0 ),
+        .O(\cnt[31]_i_5_n_0 ));
+  LUT5 #(
+    .INIT(32'hFFFFFFFE)) 
+    \cnt[31]_i_6 
+       (.I0(cnt[18]),
+        .I1(cnt[19]),
+        .I2(cnt[16]),
+        .I3(cnt[17]),
+        .I4(\cnt[31]_i_10_n_0 ),
+        .O(\cnt[31]_i_6_n_0 ));
+  LUT4 #(
+    .INIT(16'hFFFE)) 
+    \cnt[31]_i_7 
+       (.I0(cnt[13]),
+        .I1(cnt[12]),
+        .I2(cnt[15]),
+        .I3(cnt[14]),
+        .O(\cnt[31]_i_7_n_0 ));
+  LUT4 #(
+    .INIT(16'hFFFE)) 
+    \cnt[31]_i_8 
+       (.I0(cnt[5]),
+        .I1(cnt[4]),
+        .I2(cnt[7]),
+        .I3(cnt[6]),
+        .O(\cnt[31]_i_8_n_0 ));
+  LUT4 #(
+    .INIT(16'hFFFE)) 
+    \cnt[31]_i_9 
+       (.I0(cnt[29]),
+        .I1(cnt[28]),
+        .I2(cnt[31]),
+        .I3(cnt[30]),
+        .O(\cnt[31]_i_9_n_0 ));
   FDRE #(
     .INIT(1'b0)) 
     \cnt_reg[0] 
@@ -415,7 +413,7 @@ module sevenseg
     \cnt_reg[10] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__1_n_6),
+        .D(\cnt_reg[12]_i_1_n_6 ),
         .Q(cnt[10]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -423,7 +421,7 @@ module sevenseg
     \cnt_reg[11] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__1_n_5),
+        .D(\cnt_reg[12]_i_1_n_5 ),
         .Q(cnt[11]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -431,15 +429,22 @@ module sevenseg
     \cnt_reg[12] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__1_n_4),
+        .D(\cnt_reg[12]_i_1_n_4 ),
         .Q(cnt[12]),
         .R(\cnt[31]_i_1_n_0 ));
+  CARRY4 \cnt_reg[12]_i_1 
+       (.CI(\cnt_reg[8]_i_1_n_0 ),
+        .CO({\cnt_reg[12]_i_1_n_0 ,\cnt_reg[12]_i_1_n_1 ,\cnt_reg[12]_i_1_n_2 ,\cnt_reg[12]_i_1_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\cnt_reg[12]_i_1_n_4 ,\cnt_reg[12]_i_1_n_5 ,\cnt_reg[12]_i_1_n_6 ,\cnt_reg[12]_i_1_n_7 }),
+        .S(cnt[12:9]));
   FDRE #(
     .INIT(1'b0)) 
     \cnt_reg[13] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__2_n_7),
+        .D(\cnt_reg[16]_i_1_n_7 ),
         .Q(cnt[13]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -447,7 +452,7 @@ module sevenseg
     \cnt_reg[14] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__2_n_6),
+        .D(\cnt_reg[16]_i_1_n_6 ),
         .Q(cnt[14]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -455,7 +460,7 @@ module sevenseg
     \cnt_reg[15] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__2_n_5),
+        .D(\cnt_reg[16]_i_1_n_5 ),
         .Q(cnt[15]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -463,15 +468,22 @@ module sevenseg
     \cnt_reg[16] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__2_n_4),
+        .D(\cnt_reg[16]_i_1_n_4 ),
         .Q(cnt[16]),
         .R(\cnt[31]_i_1_n_0 ));
+  CARRY4 \cnt_reg[16]_i_1 
+       (.CI(\cnt_reg[12]_i_1_n_0 ),
+        .CO({\cnt_reg[16]_i_1_n_0 ,\cnt_reg[16]_i_1_n_1 ,\cnt_reg[16]_i_1_n_2 ,\cnt_reg[16]_i_1_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\cnt_reg[16]_i_1_n_4 ,\cnt_reg[16]_i_1_n_5 ,\cnt_reg[16]_i_1_n_6 ,\cnt_reg[16]_i_1_n_7 }),
+        .S(cnt[16:13]));
   FDRE #(
     .INIT(1'b0)) 
     \cnt_reg[17] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__3_n_7),
+        .D(\cnt_reg[20]_i_1_n_7 ),
         .Q(cnt[17]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -479,7 +491,7 @@ module sevenseg
     \cnt_reg[18] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__3_n_6),
+        .D(\cnt_reg[20]_i_1_n_6 ),
         .Q(cnt[18]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -487,7 +499,7 @@ module sevenseg
     \cnt_reg[19] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__3_n_5),
+        .D(\cnt_reg[20]_i_1_n_5 ),
         .Q(cnt[19]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -495,7 +507,7 @@ module sevenseg
     \cnt_reg[1] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry_n_7),
+        .D(\cnt_reg[4]_i_1_n_7 ),
         .Q(cnt[1]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -503,15 +515,22 @@ module sevenseg
     \cnt_reg[20] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__3_n_4),
+        .D(\cnt_reg[20]_i_1_n_4 ),
         .Q(cnt[20]),
         .R(\cnt[31]_i_1_n_0 ));
+  CARRY4 \cnt_reg[20]_i_1 
+       (.CI(\cnt_reg[16]_i_1_n_0 ),
+        .CO({\cnt_reg[20]_i_1_n_0 ,\cnt_reg[20]_i_1_n_1 ,\cnt_reg[20]_i_1_n_2 ,\cnt_reg[20]_i_1_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\cnt_reg[20]_i_1_n_4 ,\cnt_reg[20]_i_1_n_5 ,\cnt_reg[20]_i_1_n_6 ,\cnt_reg[20]_i_1_n_7 }),
+        .S(cnt[20:17]));
   FDRE #(
     .INIT(1'b0)) 
     \cnt_reg[21] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__4_n_7),
+        .D(\cnt_reg[24]_i_1_n_7 ),
         .Q(cnt[21]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -519,7 +538,7 @@ module sevenseg
     \cnt_reg[22] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__4_n_6),
+        .D(\cnt_reg[24]_i_1_n_6 ),
         .Q(cnt[22]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -527,7 +546,7 @@ module sevenseg
     \cnt_reg[23] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__4_n_5),
+        .D(\cnt_reg[24]_i_1_n_5 ),
         .Q(cnt[23]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -535,15 +554,22 @@ module sevenseg
     \cnt_reg[24] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__4_n_4),
+        .D(\cnt_reg[24]_i_1_n_4 ),
         .Q(cnt[24]),
         .R(\cnt[31]_i_1_n_0 ));
+  CARRY4 \cnt_reg[24]_i_1 
+       (.CI(\cnt_reg[20]_i_1_n_0 ),
+        .CO({\cnt_reg[24]_i_1_n_0 ,\cnt_reg[24]_i_1_n_1 ,\cnt_reg[24]_i_1_n_2 ,\cnt_reg[24]_i_1_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\cnt_reg[24]_i_1_n_4 ,\cnt_reg[24]_i_1_n_5 ,\cnt_reg[24]_i_1_n_6 ,\cnt_reg[24]_i_1_n_7 }),
+        .S(cnt[24:21]));
   FDRE #(
     .INIT(1'b0)) 
     \cnt_reg[25] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__5_n_7),
+        .D(\cnt_reg[28]_i_1_n_7 ),
         .Q(cnt[25]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -551,7 +577,7 @@ module sevenseg
     \cnt_reg[26] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__5_n_6),
+        .D(\cnt_reg[28]_i_1_n_6 ),
         .Q(cnt[26]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -559,7 +585,7 @@ module sevenseg
     \cnt_reg[27] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__5_n_5),
+        .D(\cnt_reg[28]_i_1_n_5 ),
         .Q(cnt[27]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -567,15 +593,22 @@ module sevenseg
     \cnt_reg[28] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__5_n_4),
+        .D(\cnt_reg[28]_i_1_n_4 ),
         .Q(cnt[28]),
         .R(\cnt[31]_i_1_n_0 ));
+  CARRY4 \cnt_reg[28]_i_1 
+       (.CI(\cnt_reg[24]_i_1_n_0 ),
+        .CO({\cnt_reg[28]_i_1_n_0 ,\cnt_reg[28]_i_1_n_1 ,\cnt_reg[28]_i_1_n_2 ,\cnt_reg[28]_i_1_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\cnt_reg[28]_i_1_n_4 ,\cnt_reg[28]_i_1_n_5 ,\cnt_reg[28]_i_1_n_6 ,\cnt_reg[28]_i_1_n_7 }),
+        .S(cnt[28:25]));
   FDRE #(
     .INIT(1'b0)) 
     \cnt_reg[29] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__6_n_7),
+        .D(\cnt_reg[31]_i_2_n_7 ),
         .Q(cnt[29]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -583,7 +616,7 @@ module sevenseg
     \cnt_reg[2] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry_n_6),
+        .D(\cnt_reg[4]_i_1_n_6 ),
         .Q(cnt[2]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -591,7 +624,7 @@ module sevenseg
     \cnt_reg[30] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__6_n_6),
+        .D(\cnt_reg[31]_i_2_n_6 ),
         .Q(cnt[30]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -599,15 +632,22 @@ module sevenseg
     \cnt_reg[31] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__6_n_5),
+        .D(\cnt_reg[31]_i_2_n_5 ),
         .Q(cnt[31]),
         .R(\cnt[31]_i_1_n_0 ));
+  CARRY4 \cnt_reg[31]_i_2 
+       (.CI(\cnt_reg[28]_i_1_n_0 ),
+        .CO({\NLW_cnt_reg[31]_i_2_CO_UNCONNECTED [3:2],\cnt_reg[31]_i_2_n_2 ,\cnt_reg[31]_i_2_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\NLW_cnt_reg[31]_i_2_O_UNCONNECTED [3],\cnt_reg[31]_i_2_n_5 ,\cnt_reg[31]_i_2_n_6 ,\cnt_reg[31]_i_2_n_7 }),
+        .S({1'b0,cnt[31:29]}));
   FDRE #(
     .INIT(1'b0)) 
     \cnt_reg[3] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry_n_5),
+        .D(\cnt_reg[4]_i_1_n_5 ),
         .Q(cnt[3]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -615,15 +655,22 @@ module sevenseg
     \cnt_reg[4] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry_n_4),
+        .D(\cnt_reg[4]_i_1_n_4 ),
         .Q(cnt[4]),
         .R(\cnt[31]_i_1_n_0 ));
+  CARRY4 \cnt_reg[4]_i_1 
+       (.CI(1'b0),
+        .CO({\cnt_reg[4]_i_1_n_0 ,\cnt_reg[4]_i_1_n_1 ,\cnt_reg[4]_i_1_n_2 ,\cnt_reg[4]_i_1_n_3 }),
+        .CYINIT(cnt[0]),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\cnt_reg[4]_i_1_n_4 ,\cnt_reg[4]_i_1_n_5 ,\cnt_reg[4]_i_1_n_6 ,\cnt_reg[4]_i_1_n_7 }),
+        .S(cnt[4:1]));
   FDRE #(
     .INIT(1'b0)) 
     \cnt_reg[5] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__0_n_7),
+        .D(\cnt_reg[8]_i_1_n_7 ),
         .Q(cnt[5]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -631,7 +678,7 @@ module sevenseg
     \cnt_reg[6] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__0_n_6),
+        .D(\cnt_reg[8]_i_1_n_6 ),
         .Q(cnt[6]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -639,7 +686,7 @@ module sevenseg
     \cnt_reg[7] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__0_n_5),
+        .D(\cnt_reg[8]_i_1_n_5 ),
         .Q(cnt[7]),
         .R(\cnt[31]_i_1_n_0 ));
   FDRE #(
@@ -647,101 +694,51 @@ module sevenseg
     \cnt_reg[8] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__0_n_4),
+        .D(\cnt_reg[8]_i_1_n_4 ),
         .Q(cnt[8]),
         .R(\cnt[31]_i_1_n_0 ));
+  CARRY4 \cnt_reg[8]_i_1 
+       (.CI(\cnt_reg[4]_i_1_n_0 ),
+        .CO({\cnt_reg[8]_i_1_n_0 ,\cnt_reg[8]_i_1_n_1 ,\cnt_reg[8]_i_1_n_2 ,\cnt_reg[8]_i_1_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\cnt_reg[8]_i_1_n_4 ,\cnt_reg[8]_i_1_n_5 ,\cnt_reg[8]_i_1_n_6 ,\cnt_reg[8]_i_1_n_7 }),
+        .S(cnt[8:5]));
   FDRE #(
     .INIT(1'b0)) 
     \cnt_reg[9] 
        (.C(clk_IBUF_BUFG),
         .CE(1'b1),
-        .D(plusOp_carry__1_n_7),
+        .D(\cnt_reg[12]_i_1_n_7 ),
         .Q(cnt[9]),
         .R(\cnt[31]_i_1_n_0 ));
-  CARRY4 plusOp_carry
-       (.CI(1'b0),
-        .CO({plusOp_carry_n_0,plusOp_carry_n_1,plusOp_carry_n_2,plusOp_carry_n_3}),
-        .CYINIT(cnt[0]),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({plusOp_carry_n_4,plusOp_carry_n_5,plusOp_carry_n_6,plusOp_carry_n_7}),
-        .S(cnt[4:1]));
-  CARRY4 plusOp_carry__0
-       (.CI(plusOp_carry_n_0),
-        .CO({plusOp_carry__0_n_0,plusOp_carry__0_n_1,plusOp_carry__0_n_2,plusOp_carry__0_n_3}),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({plusOp_carry__0_n_4,plusOp_carry__0_n_5,plusOp_carry__0_n_6,plusOp_carry__0_n_7}),
-        .S(cnt[8:5]));
-  CARRY4 plusOp_carry__1
-       (.CI(plusOp_carry__0_n_0),
-        .CO({plusOp_carry__1_n_0,plusOp_carry__1_n_1,plusOp_carry__1_n_2,plusOp_carry__1_n_3}),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({plusOp_carry__1_n_4,plusOp_carry__1_n_5,plusOp_carry__1_n_6,plusOp_carry__1_n_7}),
-        .S(cnt[12:9]));
-  CARRY4 plusOp_carry__2
-       (.CI(plusOp_carry__1_n_0),
-        .CO({plusOp_carry__2_n_0,plusOp_carry__2_n_1,plusOp_carry__2_n_2,plusOp_carry__2_n_3}),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({plusOp_carry__2_n_4,plusOp_carry__2_n_5,plusOp_carry__2_n_6,plusOp_carry__2_n_7}),
-        .S(cnt[16:13]));
-  CARRY4 plusOp_carry__3
-       (.CI(plusOp_carry__2_n_0),
-        .CO({plusOp_carry__3_n_0,plusOp_carry__3_n_1,plusOp_carry__3_n_2,plusOp_carry__3_n_3}),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({plusOp_carry__3_n_4,plusOp_carry__3_n_5,plusOp_carry__3_n_6,plusOp_carry__3_n_7}),
-        .S(cnt[20:17]));
-  CARRY4 plusOp_carry__4
-       (.CI(plusOp_carry__3_n_0),
-        .CO({plusOp_carry__4_n_0,plusOp_carry__4_n_1,plusOp_carry__4_n_2,plusOp_carry__4_n_3}),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({plusOp_carry__4_n_4,plusOp_carry__4_n_5,plusOp_carry__4_n_6,plusOp_carry__4_n_7}),
-        .S(cnt[24:21]));
-  CARRY4 plusOp_carry__5
-       (.CI(plusOp_carry__4_n_0),
-        .CO({plusOp_carry__5_n_0,plusOp_carry__5_n_1,plusOp_carry__5_n_2,plusOp_carry__5_n_3}),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({plusOp_carry__5_n_4,plusOp_carry__5_n_5,plusOp_carry__5_n_6,plusOp_carry__5_n_7}),
-        .S(cnt[28:25]));
-  CARRY4 plusOp_carry__6
-       (.CI(plusOp_carry__5_n_0),
-        .CO({NLW_plusOp_carry__6_CO_UNCONNECTED[3:2],plusOp_carry__6_n_2,plusOp_carry__6_n_3}),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({NLW_plusOp_carry__6_O_UNCONNECTED[3],plusOp_carry__6_n_5,plusOp_carry__6_n_6,plusOp_carry__6_n_7}),
-        .S({1'b0,cnt[31:29]}));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT5 #(
     .INIT(32'hFFFE0001)) 
     \slow_clk[0]_i_1 
-       (.I0(cnt[0]),
-        .I1(\cnt[0]_i_4_n_0 ),
-        .I2(\cnt[0]_i_3_n_0 ),
-        .I3(\cnt[0]_i_2_n_0 ),
+       (.I0(\cnt[31]_i_6_n_0 ),
+        .I1(\cnt[31]_i_5_n_0 ),
+        .I2(\cnt[31]_i_4_n_0 ),
+        .I3(\cnt[31]_i_3_n_0 ),
         .I4(\slow_clk_reg_n_0_[0] ),
         .O(\slow_clk[0]_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFFFFD00000002)) 
     \slow_clk[1]_i_1 
        (.I0(\slow_clk_reg_n_0_[0] ),
-        .I1(\cnt[0]_i_2_n_0 ),
-        .I2(\cnt[0]_i_3_n_0 ),
-        .I3(\cnt[0]_i_4_n_0 ),
-        .I4(cnt[0]),
+        .I1(\cnt[31]_i_3_n_0 ),
+        .I2(\cnt[31]_i_4_n_0 ),
+        .I3(\cnt[31]_i_5_n_0 ),
+        .I4(\cnt[31]_i_6_n_0 ),
         .I5(\slow_clk_reg_n_0_[1] ),
         .O(\slow_clk[1]_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFFFFE00000001)) 
     \slow_clk[2]_i_1 
        (.I0(\slow_clk[2]_i_2_n_0 ),
-        .I1(\cnt[0]_i_2_n_0 ),
-        .I2(\cnt[0]_i_3_n_0 ),
-        .I3(\cnt[0]_i_4_n_0 ),
-        .I4(cnt[0]),
+        .I1(\cnt[31]_i_3_n_0 ),
+        .I2(\cnt[31]_i_4_n_0 ),
+        .I3(\cnt[31]_i_5_n_0 ),
+        .I4(\cnt[31]_i_6_n_0 ),
         .I5(\slow_clk_reg_n_0_[2] ),
         .O(\slow_clk[2]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair4" *) 

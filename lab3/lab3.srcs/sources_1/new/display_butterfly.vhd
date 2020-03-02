@@ -77,10 +77,10 @@ fft: fft_butterfly port map(A => A,
                             A_comp => A_comp,
                             B_comp => B_comp);
 
-to_display <= std_logic_vector(A_comp.r) when num = '0' and part = '0' else
-              std_logic_vector(A_comp.i) when num = '0' and part = '1' else
-              std_logic_vector(B_comp.r) when num = '1' and part = '0' else
-              std_logic_vector(B_comp.i) when num = '1' and part = '1';
+to_display <= to_slv(A_comp.r) when num = '0' and part = '0' else
+              to_slv(A_comp.i) when num = '0' and part = '1' else
+              to_slv(B_comp.r) when num = '1' and part = '0' else
+              to_slv(B_comp.i) when num = '1' and part = '1';
 
 display : sevenseg port map(num => to_display,
                             clk => clk,
