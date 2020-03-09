@@ -38,8 +38,8 @@ package complex_record is
 
 type complex is
     record
-        r: float32;
-        i: float32;
+        r: std_logic_vector(31 downto 0);
+        i: std_logic_vector(31 downto 0);
     end record;
     
 end package complex_record;

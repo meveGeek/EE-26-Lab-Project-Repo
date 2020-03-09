@@ -50,6 +50,7 @@ architecture Behavioral of display_butterfly is
 component fft_butterfly is
     Port ( A : in complex;
            B : in complex;
+           clk: in STD_LOGIC;
            A_comp : out complex;
            B_comp : out complex);
 end component;
@@ -67,20 +68,21 @@ signal A, B, A_comp, B_comp : complex;
 signal to_display : STD_LOGIC_VECTOR(31 downto 0);
 
 begin
-A.r <= to_float(1.5, A.r);
-A.i <= to_float(0.5, A.i);
-B.r <= to_float(2.0, B.r);
-B.i <= to_float(-3.0, B.i);
+A.r <= std_logic_vector(to_float(1.5, 8, 23));
+A.i <= std_logic_vector(to_float(0.5, 8, 23));
+B.r <= std_logic_vector(to_float(2.0, 8, 23));
+B.i <= std_logic_vector(to_float(-3.0, 8, 23));
 
 fft: fft_butterfly port map(A => A,
                             B => B,
+                            clk => clk,
                             A_comp => A_comp,
                             B_comp => B_comp);
 
-to_display <= to_slv(A_comp.r) when num = '0' and part = '0' else
-              to_slv(A_comp.i) when num = '0' and part = '1' else
-              to_slv(B_comp.r) when num = '1' and part = '0' else
-              to_slv(B_comp.i) when num = '1' and part = '1';
+to_display <= (A_comp.r) when num = '0' and part = '0' else
+              (A_comp.i) when num = '0' and part = '1' else
+              (B_comp.r) when num = '1' and part = '0' else
+              (B_comp.i) when num = '1' and part = '1';
 
 display : sevenseg port map(num => to_display,
                             clk => clk,
