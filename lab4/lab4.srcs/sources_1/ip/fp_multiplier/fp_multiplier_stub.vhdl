@@ -1,10 +1,10 @@
--- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
--- Date        : Mon Mar  9 16:29:47 2020
--- Host        : LAB223D running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               z:/ee26/lab4/lab4.srcs/sources_1/ip/fp_multiplier/fp_multiplier_stub.vhdl
+-- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+-- Date        : Mon Mar 30 17:50:25 2020
+-- Host        : DESKTOP-C55NBCU running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode synth_stub -rename_top fp_multiplier -prefix
+--               fp_multiplier_ fp_multiplier_stub.vhdl
 -- Design      : fp_multiplier
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tcsg324-1

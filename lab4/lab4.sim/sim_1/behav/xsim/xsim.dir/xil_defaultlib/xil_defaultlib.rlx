@@ -1,0 +1,15 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab3/lab3.srcs/sources_1/new/complex_pkg.vhd,1585157174,vhdl,C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab4/lab4.srcs/sources_1/new/fft_8point.vhd,,,complex_record,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab3/lab3.srcs/sources_1/new/display_butterfly.vhd,1585602847,vhdl,,,,display_butterfly,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab3/lab3.srcs/sources_1/new/sevenseg.vhd,1585157174,vhdl,,,,sevenseg,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab3/lab3.srcs/sources_1/new/sevenseg_decode.vhd,1585928712,vhdl,,,,sevenseg_decode,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab4/lab4.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab4/lab4.srcs/sim_1/new/fft_testbench.vhd,1585928858,vhdl,,,,fft_testbench,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab4/lab4.srcs/sources_1/ip/clk_gen_sim_0/hdl/clk_gen_sim_0.sv,1585688250,systemVerilog,,,,clk_gen_sim_0,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab4/lab4.srcs/sources_1/ip/fp_adder_subtractor/sim/fp_adder_subtractor.vhd,1585157175,vhdl,,,,fp_adder_subtractor,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab4/lab4.srcs/sources_1/ip/fp_multiplier/sim/fp_multiplier.vhd,1585157175,vhdl,,,,fp_multiplier,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab4/lab4.srcs/sources_1/new/fft_8point.vhd,1585929077,vhdl,,,,fft_8point,,,,,,,,
+C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/Lab 4/lab4.srcs/sources_1/new/fft_butterfly.vhd,1585494510,vhdl,,,,fft_butterfly,,,,,,,,

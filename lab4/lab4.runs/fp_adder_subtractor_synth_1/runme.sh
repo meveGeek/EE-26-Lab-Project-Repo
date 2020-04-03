@@ -3,7 +3,7 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 # 
 
 echo "This script was generated under a different operating system."
@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=C:/Xilinx/SDK/2017.4/bin;C:/Xilinx/Vivado/2017.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.4/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2017.4/bin
+  PATH=C:/Users/kptho/Documents/Vivado/2019.2/ids_lite/ISE/bin/nt64;C:/Users/kptho/Documents/Vivado/2019.2/ids_lite/ISE/lib/nt64:C:/Users/kptho/Documents/Vivado/2019.2/bin
 else
-  PATH=C:/Xilinx/SDK/2017.4/bin;C:/Xilinx/Vivado/2017.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.4/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2017.4/bin:$PATH
+  PATH=C:/Users/kptho/Documents/Vivado/2019.2/ids_lite/ISE/bin/nt64;C:/Users/kptho/Documents/Vivado/2019.2/ids_lite/ISE/lib/nt64:C:/Users/kptho/Documents/Vivado/2019.2/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='Z:/ee26/lab4/lab4.runs/fp_adder_subtractor_synth_1'
+HD_PWD='C:/Users/kptho/Desktop/Spring 2020 Semester/EE 26/Labs/EE-26-Lab-Project-Repo/lab4/lab4.runs/fp_adder_subtractor_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

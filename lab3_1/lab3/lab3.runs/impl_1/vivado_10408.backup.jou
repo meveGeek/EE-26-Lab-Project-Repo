@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Feb 24 17:27:17 2020
+# Process ID: 10408
+# Current directory: Z:/ee26/lab3/lab3.runs/impl_1
+# Command line: vivado.exe -log use_sevenseg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source use_sevenseg.tcl -notrace
+# Log file: Z:/ee26/lab3/lab3.runs/impl_1/use_sevenseg.vdi
+# Journal file: Z:/ee26/lab3/lab3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source use_sevenseg.tcl -notrace

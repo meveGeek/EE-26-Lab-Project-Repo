@@ -1,0 +1,1 @@
+-wto "ffbdfe2b36b44e1c8607620aed153a36" --incr --debug "typical" --relax --mt "2" --maxdelay -L "xil_defaultlib" -L "simprims_ver" -L "secureip" --snapshot "butterfly_test_time_synth" -transport_int_delays -pulse_r "0" -pulse_int_r "0" -pulse_e "0" -pulse_int_e "0" "xil_defaultlib.butterfly_test" "xil_defaultlib.glbl" -log "elaborate.log" 

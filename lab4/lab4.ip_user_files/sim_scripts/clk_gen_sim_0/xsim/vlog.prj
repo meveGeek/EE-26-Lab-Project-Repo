@@ -1,0 +1,6 @@
+sv xil_defaultlib  \
+"../../../../lab4.srcs/sources_1/ip/clk_gen_sim_0/hdl/clk_gen_sim_0.sv" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

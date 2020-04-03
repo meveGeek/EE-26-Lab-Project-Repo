@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Feb 24 18:26:38 2020
+# Process ID: 10016
+# Current directory: Z:/ee26/lab3/lab3.runs/synth_1
+# Command line: vivado.exe -log display_butterfly.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source display_butterfly.tcl
+# Log file: Z:/ee26/lab3/lab3.runs/synth_1/display_butterfly.vds
+# Journal file: Z:/ee26/lab3/lab3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source display_butterfly.tcl -notrace
