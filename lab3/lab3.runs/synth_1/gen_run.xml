@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1583185838">
   <File Type="PA-TCL" Name="display_butterfly.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="display_butterfly_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="display_butterfly_reports.tcl"/>
   <File Type="RDS-RDS" Name="display_butterfly.vds"/>
   <File Type="RDS-UTIL" Name="display_butterfly_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="display_butterfly_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="display_butterfly.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="display_butterfly_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="display_butterfly_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/complex_pkg.vhd">
