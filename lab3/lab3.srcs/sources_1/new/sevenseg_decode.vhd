@@ -53,7 +53,7 @@ segments <= "0000001" when x = "0000" else
             "0001000" when x = "1010" else
             "1100000" when x = "1011" else
             "0110001" when x = "1100" else
-            "1000001" when x = "1101" else
+            "1000010" when x = "1101" else
             "0110000" when x = "1110" else
             "0111000";
 
